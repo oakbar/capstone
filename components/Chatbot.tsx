@@ -1,6 +1,7 @@
 'use client'
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion, MotionValue } from "framer-motion";
+import Button from './Button';
 
 export const DisappearingFeatures = () => {
   return (
@@ -35,14 +36,15 @@ const Copy = () => {
         Solve your problems with our new chatbot.
       </h2>
       <p className="text-lg text-indigo-950">
-        Lorem ipsum dolor sit amet consectetur. Dolor quis a leo lobortis orci
-        tortor eget. Enim proin aliquam nulla a lacus pellentesque quam in. Nec
-        vel vel nulla nunc vel in molestie proin convallis. Leo et vulputate
-        tincidunt justo a varius et elementum.
+        Introducing State Farm's JAIKE, your go-to resource for navigating the company's extensive knowledge base. With the capability to sift through thousands of documents, our intelligent chatbot is designed to provide employees and stakeholders with prompt, accurate responses to a wide range of inquiries.
       </p>
+      <div className="flex justify-start">
+        <Button />
+      </div>
     </div>
   );
 };
+
 
 const Carousel = () => {
   const ref = useRef(null);
@@ -61,11 +63,7 @@ const Carousel = () => {
           position={1}
           numItems={4}
         />
-        <CarouselItem
-          scrollYProgress={scrollYProgress}
-          position={2}
-          numItems={4}
-        />
+
       </div>
 
       <Buffer />
@@ -97,7 +95,12 @@ const CarouselItem = ({
       }}
       className="grid aspect-video w-full shrink-0 place-content-center rounded-2xl bg-neutral-900"
     >
-      <span className="text-lg text-neutral-600">Feature demo here</span>
+      {/* Replace the text span with an image tag */}
+      <img
+        src="https://cdn.discordapp.com/attachments/640318753116258324/1230967003976568926/image.png?ex=66353e5c&is=6622c95c&hm=5578ff862529c826e041a1ff82e26cb1ee246ff3db6ebee1c5ac080495609525"
+        alt="Feature Demo"
+        className="max-w-full max-h-full" // Ensures the image fits within the div
+      />
     </motion.div>
   );
 };

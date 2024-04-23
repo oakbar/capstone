@@ -56,7 +56,6 @@ const NavLeft = ({ setIsOpen }) => {
       <NavLink text="Chatbot" sectionId="chatbot" scrollToSection={scrollToSection} />
       <NavLink text="Kanban" sectionId="kanban" scrollToSection={scrollToSection} />
       <NavLink text="Metrics" sectionId="metrics" scrollToSection={scrollToSection} />
-      <NavLink text="Analytics" sectionId="analytics" scrollToSection={scrollToSection} />
       <NavLink text="Blog" sectionId="blog" scrollToSection={scrollToSection} />
       <NavLink text="FAQ" sectionId="faq" scrollToSection={scrollToSection} />
     </div>

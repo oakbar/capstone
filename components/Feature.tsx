@@ -11,17 +11,17 @@ import {
   
   const features = [
     {
-      name: 'Push to deploy.',
+      name: 'Idea 1 Here.',
       description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
       icon: CloudArrowUpIcon,
     },
     {
-      name: 'SSL certificates.',
+      name: 'Idea 2 Here.',
       description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
       icon: UserGroupIcon,
     },
     {
-      name: 'Simple queues.',
+      name: 'Idea 3 Here.',
       description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
       icon: ArrowPathIcon,
     },

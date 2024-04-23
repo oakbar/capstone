@@ -372,7 +372,7 @@ import React, {
   
   const DEFAULT_CARDS: CardType[] = [
     // BACKLOG
-    { title: "Look into render bug in dashboard", id: "1", column: "backlog" },
+    { title: "Research into ", id: "1", column: "backlog" },
     { title: "SOX compliance checklist", id: "2", column: "backlog" },
     { title: "[SPIKE] Migrate to Azure", id: "3", column: "backlog" },
     { title: "Document Notifications service", id: "4", column: "backlog" },

@@ -46,8 +46,8 @@ const Table = () => {
           <tr className="border-b-[1px] border-slate-200 text-slate-400 text-sm uppercase">
             <th className="pl-4 w-8"></th>
             <th className="text-start p-4 font-medium">Team Member</th>
-            <th className="text-start p-4 font-medium">Evaluation</th>
-            <th className="text-start p-4 font-medium">AI Evaluation</th>
+            <th className="text-start p-4 font-medium">Chatbot Usage</th>
+            <th className="text-start p-4 font-medium">Employee Activity</th>
             <th className="text-start p-4 font-medium">Status</th>
           </tr>
         </thead>
@@ -204,7 +204,7 @@ const userData: User[] = [
     id: 5,
     name: "Jimmy Butler",
     contact: "jimmybutler@statefarm.com",
-    photoURL: "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.6435-9/75424555_10157998868257847_5402872260534992896_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BFIddp9bIUQAX_7oTOd&_nc_ht=scontent-dfw5-2.xx&oh=00_AfAp-CyG09qV3iYTBZd0Vwt_OgRL6kBqxYBkCH3BF_hnig&oe=6619D39E",
+    photoURL: "https://images.wsj.net/im-415136?width=1280&size=1",
     maxRank: 5,
     status: "offline",
   },
