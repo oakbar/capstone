@@ -372,29 +372,29 @@ import React, {
   
   const DEFAULT_CARDS: CardType[] = [
     // BACKLOG
-    { title: "Research into ", id: "1", column: "backlog" },
-    { title: "SOX compliance checklist", id: "2", column: "backlog" },
-    { title: "[SPIKE] Migrate to Azure", id: "3", column: "backlog" },
-    { title: "Document Notifications service", id: "4", column: "backlog" },
+    { title: "Enroll in SQL course in Workday", id: "1", column: "backlog" },
+    { title: "Complete employee survey", id: "2", column: "backlog" },
+    { title: "Review recently updated changes to documentation", id: "3", column: "backlog" },
+    { title: "Message new team members", id: "4", column: "backlog" },
     // TODO
     {
-      title: "Research DB options for new microservice",
+      title: "Schedule time to study for SQL course",
       id: "5",
       column: "todo",
     },
-    { title: "Postmortem for outage", id: "6", column: "todo" },
-    { title: "Sync with product on Q3 roadmap", id: "7", column: "todo" },
+    { title: "Set up meeting with mentor", id: "6", column: "todo" },
+    { title: "Prepare for 1-on-1 with manager", id: "7", column: "todo" },
   
     // DOING
     {
-      title: "Refactor context providers to use Zustand",
+      title: "Practice SQL queries",
       id: "8",
       column: "doing",
     },
-    { title: "Add logging to daily CRON", id: "9", column: "doing" },
+    { title: "Develop data visualizations for meeting next week", id: "9", column: "doing" },
     // DONE
     {
-      title: "Set up DD dashboards for Lambda listener",
+      title: "Assign roles to members for new project",
       id: "10",
       column: "done",
     },

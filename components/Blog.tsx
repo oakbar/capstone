@@ -1,54 +1,54 @@
 'use client'
 const posts = [
     {
-      title: 'Insert Title Here',
+      title: 'SQL Essentials',
       href: '#',
       category: { name: 'Article', href: '#' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+        'Step into the world of SQL with confidence as this article breaks down the fundamentals you need to craft efficient, powerful queries. From understanding joins to optimizing subqueries, learn the language that databases speak and start making data-driven decisions with precision.',
       date: 'Mar 16, 2024',
       datetime: '2024-03-16',
       imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        'https://media.licdn.com/dms/image/D4D12AQGXoLA2ZXer3g/article-cover_image-shrink_720_1280/0/1692968204043?e=2147483647&v=beta&t=ERBATmVYLLk-1HsQzoIlMpTjzQhuIVYg68ckQljMQZY',
       readingTime: '6 min',
       author: {
-        name: 'Insert Name Here',
+        name: 'John Stevens',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
     },
     {
-      title: 'Insert Title Here',
+      title: 'Effective Meetings with Your Manager: A Complete Guide',
       href: '#',
       category: { name: 'Video', href: '#' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+        'In this video, uncover the secrets to making the most out of your one-on-ones with your manager. We’ll provide you with the tips to communicate your progress, ask for feedback, and discuss your career development path, ensuring you stay on track and visibly contribute to your team.',
       date: 'Mar 10, 2024',
       datetime: '2024-03-10',
       imageUrl:
-        'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-      readingTime: '4 min',
+        'https://assets-global.website-files.com/62dac784c266a307e14d76b4/62e11b6a719db878e9734d96_616622081cacc67149fd5406_loopin%2520one-on-one%2520meeting%2520with%2520manager.jpeg',
+      readingTime: '9 min',
       author: {
-        name: 'Insert Name Here',
+        name: 'Lauren Gray',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
     },
     {
-      title: 'Insert Title Here',
+      title: 'Data Visualization for Impact: State Farm Success Stories',
       href: '#',
       category: { name: 'Case Study', href: '#' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
+        'Follow the journey of a junior data analyst who helped State Farm with their reporting approach through effective data visualizations. This case study will showcase before-and-after scenarios, highlighting how the right charts and graphs can turn raw data into compelling stories for business insights.',
       date: 'Feb 28, 2024',
       datetime: '2024-02-12',
       imageUrl:
-        'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
+        'https://treehousetechgroup.com/wp-content/uploads/2020/01/Screen-Shot-2020-01-28-at-10.13.28-AM.png',
       readingTime: '11 min',
       author: {
-        name: 'Insert Name Here',
+        name: 'Jane Doe',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',

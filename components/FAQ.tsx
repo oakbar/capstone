@@ -149,7 +149,7 @@ const Question = ({ question, answer }) => {
 
 export default TabsFAQ;
  
-const TABS = ["Chatbot", "Metrics", "Support"];
+const TABS = ["Chatbot", "Documentation", "Support"];
  
 const QUESTIONS = {
   "Chatbot": [
@@ -174,48 +174,48 @@ const QUESTIONS = {
         "If there are any concerns regarding the answers returned by the chatbot, send an inquiry to the AI/ML team.",
     },
   ],
-  "Metrics": [
+  "Documentation": [
     {
-      question: "What should I do if my rideshare doesn't arrive on time?",
+      question: "Blank Text",
       answer:
-        "If your rideshare is delayed, please contact our support team immediately through the Southwest Airlines app or website. We have a dedicated team ready to assist you and coordinate an alternative solution to ensure you reach the airport on time.",
+        "Blank Text",
     },
     {
-      question: "How can I report a problem experienced during my rideshare journey?",
+      question: "Blank Text",
       answer:
-        "We value your feedback and safety. If you encounter any issues during your rideshare, please report them through the 'Help' section on our website or directly in the Southwest Airlines app. Provide details of your trip, and our support team will address your concerns promptly.",
+        "Blank Text",
     },
     {
-      question: "Can I request special assistance for my rideshare booking?",
+      question: "Blank Text",
       answer:
-        "Yes, Southwest Airlines is committed to accommodating all passengers. For special assistance requests, please contact our customer support prior to booking your rideshare. We will coordinate with our rideshare partners to ensure your specific needs are met.",
+        "Blank Text",
     },
     {
-      question: "Who do I contact for questions about charges or billing for my rideshare?",
+      question: "Blank Text",
       answer:
-        "For any inquiries related to charges or billing for your rideshare service, please reach out to our customer support team through the Southwest Airlines website or the customer service hotline. Provide your trip details, and our team will assist you with a detailed breakdown or any necessary adjustments.",
+        "Blank Text",
     },
   ],
   "Support": [
     {
-      question: "Can I earn Rapid Rewards points by booking rideshares through Southwest?",
+      question: "Blank Text",
       answer:
-        "Absolutely! When you book a rideshare through Southwest Airlines, you earn Rapid Rewards points just like you would with flights. These points can be redeemed for future travel, making each ride with us even more rewarding.",
+        "Blank Text",
     },
     {
-      question: "How can I use my Rapid Rewards points for booking a rideshare?",
+      question: "Blank Text",
       answer:
-        "Rapid Rewards points can be easily applied towards your rideshare bookings. Just select the option to pay with points when booking your rideshare on our website or app. This seamless integration allows you to enjoy more travel experiences on us.",
+        "Blank Text",
     },
     {
-      question: "Do Rapid Rewards points expire if I don’t use them?",
+      question: "Blank Text",
       answer:
-        "No, your points don’t expire. You can accumulate them and use them whenever you’re ready. Whether it’s for flights, hotel stays, or our rideshare service, your points will always be waiting for you.",
+        "Blank Text",
     },
     {
-      question: "Is there a limit to the number of reward seats I can book with my points?",
+      question: "Blank Text",
       answer:
-        "With Southwest Airlines, there are no limits to reward seats. You can use your Rapid Rewards points to book any available seat on any day that ends in “y”, ensuring you have the freedom to travel whenever you want, without blackout dates.",
+        "Blank Text",
     },
   ],
 };
